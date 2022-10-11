@@ -1,0 +1,15 @@
+
+X
+java:S1874"=Remove this use of "setSystemUiVisibility"; it is deprecated.(ÿÉˆÉùÿÿÿÿ
+_
+java:S1874"DRemove this use of "SYSTEM_UI_FLAG_LAYOUT_STABLE"; it is deprecated.(ÿÉˆÉùÿÿÿÿ
+c
+java:S1874"HRemove this use of "SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN"; it is deprecated.(ÿÉˆÉùÿÿÿÿ
+b
+java:S1874"GRemove this use of "SYSTEM_UI_FLAG_LIGHT_STATUS_BAR"; it is deprecated.(ÿÉˆÉùÿÿÿÿ
+L
+java:S3252!"6Use static access with "android.view.View" for "GONE".(õÛÒ½
+W
+java:S1874#"<Remove this use of "getSerializableExtra"; it is deprecated.(¢´ƒþÿÿÿÿ
+G
+java:S1602B",Remove useless curly braces around statement(”Ä±þüÿÿÿÿ

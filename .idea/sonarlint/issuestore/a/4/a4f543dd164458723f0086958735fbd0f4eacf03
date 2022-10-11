@@ -1,0 +1,9 @@
+
+f
+java:S1301 "KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+m
+java:S1301C"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8×Ù‹À¼0
+l
+java:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¶ÃÊ
+]
+java:S1871F"HThis case's code block is the same as the block for the case on line 68.(Îßk
