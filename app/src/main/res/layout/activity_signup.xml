@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f2f2f4"
+    android:background="#E5F5E8"
     android:padding="25dp"
     tools:context=".SignupActivity">
 
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/td3"
+        app:srcCompat="@drawable/signup"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:text="@string/signup"
+        android:text="Đăng Ký"
         android:textColor="@color/green_bottom_menu"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@id/editTextTextPersonName_signup"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rect_cursed"
-        android:hint="@string/name"
+        android:hint="Họ tên"
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="15dp"
@@ -77,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rect_cursed"
-        android:hint="@string/pass"
+        android:hint="Mật khẩu"
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:padding="15dp"
@@ -95,13 +95,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rect_cursed"
-        android:hint="@string/confirm_pass"
+        android:hint="Nhập lại mật khẩu"
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:padding="15dp"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@id/button_signup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextPass_signup"
@@ -112,34 +112,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:buttonTint="@color/green_bottom_menu"
-        app:layout_constraintBottom_toBottomOf="@id/textView2"
-        app:layout_constraintEnd_toStartOf="@id/textView2"
+        app:layout_constraintBottom_toBottomOf="@id/editTextConfirmPass"
+        app:layout_constraintEnd_toStartOf="@id/editTextConfirmPass"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="@id/editTextConfirmPass"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/okko"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@id/button_signup"
-        app:layout_constraintEnd_toStartOf="@id/textView_csdk"
-        app:layout_constraintStart_toEndOf="@id/checkBoxAgree"
-        app:layout_constraintTop_toBottomOf="@id/editTextConfirmPass" />
-
-    <TextView
-        android:id="@+id/textView_csdk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:text="@string/term"
-        android:textColor="@color/green_bottom_menu"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@id/textView2"
-        app:layout_constraintStart_toEndOf="@id/textView2"
-        app:layout_constraintTop_toTopOf="@id/textView2" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_signup"
@@ -148,7 +125,7 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/rect_blue_bt"
         android:padding="15dp"
-        android:text="@string/signup"
+        android:text="Đăng Ký"
         android:textAllCaps="false"
         app:backgroundTint="@color/green_bottom_menu"
         android:textColor="@color/white"
@@ -156,7 +133,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintTop_toBottomOf="@id/editTextConfirmPass"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
@@ -164,7 +141,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="3dp"
-        android:text="@string/is_has_account_yet"
+        android:text="Đã có tài khoản?"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/textView_login_link"
@@ -176,7 +153,7 @@
         android:id="@+id/textView_login_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="Đăng nhập"
         android:textColor="@color/green_bottom_menu"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@id/textView3"

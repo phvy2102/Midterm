@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                         R.anim.fade_in,   // popEnter
                         R.anim.slide_out  // popExit
                 )
-                .replace(R.id.fragment_container, new ExercisesListFragment())
+                .replace(R.id.fragment_container, new ListFragment())
                 .addToBackStack(null)
                 .commit();
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                                     R.anim.fade_in,   // popEnter
                                     R.anim.slide_out  // popExit
                             )
-                            .replace(R.id.fragment_container, new ExercisesListFragment())
+                            .replace(R.id.fragment_container, new ListFragment())
                             .addToBackStack(null)
                             .commit();
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {

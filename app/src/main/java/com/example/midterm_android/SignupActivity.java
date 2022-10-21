@@ -17,7 +17,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SignupActivity extends AppCompatActivity {
 
     private Button buttonSignup;
-    private CheckBox checkBoxAgree;
     private EditText editTextEmail;
     private EditText editTextHoTen;
     private EditText editTextPassword;
@@ -61,9 +60,6 @@ public class SignupActivity extends AppCompatActivity {
             } else if (textPassword.length() < 6) {
                 editTextPassword.setError("Password must be at least 6 characters");
                 editTextPassword.requestFocus();
-            } else if (!checkBoxAgree.isChecked()) {
-                checkBoxAgree.setError("Please agree to the terms and conditions");
-                checkBoxAgree.requestFocus();
             } else {
                 progressBar.setVisibility(ProgressBar.VISIBLE);
                 Intent intent = new Intent(this, LoginActivity.class);
@@ -80,7 +76,6 @@ public class SignupActivity extends AppCompatActivity {
 
     private void findViews() {
         buttonSignup = findViewById(R.id.button_signup);
-        checkBoxAgree = findViewById(R.id.checkBoxAgree);
         editTextEmail = findViewById(R.id.editTextTextPersonName_signup);
         editTextHoTen = findViewById(R.id.editTextName_signup);
         editTextPassword = findViewById(R.id.editTextPass_signup);

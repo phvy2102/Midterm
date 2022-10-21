@@ -13,23 +13,26 @@
         android:theme="@style/Theme.Midterm_Android"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".DetailActivity"
             android:exported="false">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".SignupActivity"
             android:exported="false">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:exported="true">
